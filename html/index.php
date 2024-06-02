@@ -1,7 +1,7 @@
 <?php
 // Include the database connection file
 include_once("config.php");
-
+//
 // Maak de 'visits' tabel indien deze niet bestaat
 $sql = "CREATE TABLE IF NOT EXISTS visits (
     id INT AUTO_INCREMENT PRIMARY KEY,
