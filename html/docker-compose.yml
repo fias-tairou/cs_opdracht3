@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   web:
-    build: .
+    build: s109626/cs_opdrach3:latest
     ports:
       - "80:80"
     volumes:
